@@ -23,7 +23,7 @@ function App() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post('https://af93-2409-40f3-1099-94cb-ce82-3c-2d91-9b5c.ngrok-free.app/submit-form', formData);
+      await axios.post('https://b843-223-184-39-21.ngrok-free.app/submit-form', formData);
       console.log('Form data sent to the server');
     } catch (error) {
       console.error('Error sending form data:', error);
